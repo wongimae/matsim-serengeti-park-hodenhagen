@@ -12,7 +12,7 @@ import org.matsim.api.core.v01.population.Person;
 
 public class SimplePersonEventHandler implements PersonDepartureEventHandler, PersonArrivalEventHandler {
     
-    private final Map<Id<Person>, Double> personToDepartureTime = new HashMap<>(0) ;
+    private final Map<Id<Person>, Double> personToDepartureTime = new HashMap<>(0);
 
     @Override
     public void handleEvent(PersonDepartureEvent PersonDepartureEvent) {
